@@ -1,0 +1,14 @@
+.App-continue {
+  margin-top: 30px;
+  padding: 10px 30px;
+  font-weight: bold;
+  color: #f4ff00;
+  border: 5px solid #f4ff00;
+  background: #000;
+  transition: all 400ms;
+  animation: 600ms bounceIn both;
+}
+  .App-continue:hover {
+    color: #000;
+    background: #f4ff00;
+  }

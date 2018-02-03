@@ -5,8 +5,8 @@ class Loading extends Component {
   render() {
     return (
       <div className="Centralizer">
-        <img src="/logo.png"/>
-        <div className="Loading" alt="Planet Wars"></div>
+        <img src="/logo.png" alt="Planet Wars"/>
+        <div className="Loading"></div>
       </div>
     );
   }

@@ -6,6 +6,7 @@ import Terrain from '../PlanetInfo/Terrain';
 import Population from '../PlanetInfo/Population';
 import Featured from '../PlanetInfo/Featured';
 import Climate from '../PlanetInfo/Climate';
+import AppContinue from '../AppContinue/AppContinue';
 
 class AppContainer extends Component {
   constructor(props) {
@@ -86,7 +87,7 @@ class AppContainer extends Component {
               <Featured quantity={planet.films.length} />
             </div>
           </div>
-          <button className="App-continue" onClick={this.gotoNext}>NEXT</button>
+          <AppContinue onClick={this.gotoNext} />
         </div>
       );
     }
